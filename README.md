@@ -1,9 +1,9 @@
 # Kubernetes cluster created using vagrant on virtualbox with jenkins that builds a docker image
-
-''
+1) Git for jenkins job https://github.com/ivorobey/docker-test
 
      vagrant up
      vagrant ssh master or I use (Lens to connect to the cluster (.kube/config)
+ 
  
  
 1)First problem: 
@@ -23,4 +23,4 @@ I configure values.yaml for me persistance:false and (resource,adminpassword)
 helm upgrade --install myjenkins jenkins/jenkins --namespace jenkins -f values.yaml
 
 Then configure jenkins (add screenshot)
-   
+ 
