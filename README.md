@@ -16,12 +16,11 @@
      ip -4 addr show
      in kube-flanel fix iface=eth1
 
+'install jenkins using helm charts'
 
-helm repo add jenkins https://charts.jenkins.io
-
-helm repo update
-
-helm upgrade --install myjenkins jenkins/jenkins --namespace jenkins
+     helm repo add jenkins https://charts.jenkins.io
+     helm repo update
+     helm upgrade --install myjenkins jenkins/jenkins --namespace jenkins
 
 
 'Second problem: pod ( pending status )'
