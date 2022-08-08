@@ -9,11 +9,11 @@
  
  
  
-1)First problem: 
-kubectl get po --all-namespaces
-kube-flannel-ds-amd64... in Error or CrashloopBackoff status
-ip -4 addr show
-in kube-flanel fix iface=eth1
+ 'First problem:' 
+     kubectl get po --all-namespaces
+     kube-flannel-ds-amd64... in Error or CrashloopBackoff status
+     ip -4 addr show
+     in kube-flanel fix iface=eth1
 
 
 helm repo add jenkins https://charts.jenkins.io
