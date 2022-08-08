@@ -1,6 +1,9 @@
 # Kubernetes cluster created using vagrant on virtualbox with jenkins that builds a docker image
 1) Git for jenkins job https://github.com/ivorobey/docker-test
 
+
+ 'Setup cluster'
+ 
      vagrant up
      vagrant ssh master or I use (Lens to connect to the cluster (.kube/config)
  
