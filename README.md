@@ -2,6 +2,6 @@
 
 'Step_1:'
 
-    1) vagrant up
-       vagrant ssh master or I use (Lens to connect to the cluster (.kube/config)
+     vagrant up
+     vagrant ssh master or I use (Lens to connect to the cluster (.kube/config)
    
