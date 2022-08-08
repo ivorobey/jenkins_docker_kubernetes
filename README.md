@@ -21,6 +21,7 @@ helm repo add jenkins https://charts.jenkins.io
 helm repo update
 helm upgrade --install myjenkins jenkins/jenkins --namespace jenkins
 
+
 'Second problem: pod ( pending status )'
 
      Persistent Volume Claim
