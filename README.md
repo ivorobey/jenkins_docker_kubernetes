@@ -16,7 +16,7 @@
      ip -4 addr show
      in kube-flanel fix iface=eth1
 
-'install jenkins using helm charts'
+'install jenkins using helm '
 
      helm repo add jenkins https://charts.jenkins.io
      helm repo update
